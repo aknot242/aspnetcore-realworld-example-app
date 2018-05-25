@@ -8,7 +8,7 @@ namespace Conduit
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
-                .UseUrls($"http://+:5000")
+                .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
 

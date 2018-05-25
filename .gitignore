@@ -278,3 +278,7 @@ tools/Cake.CoreCLR
 .vscode
 tools
 .dotnet
+.DS_Store
+**/localpath/
+src/Conduit/realworld.db
+src/Conduit/realworld.db
